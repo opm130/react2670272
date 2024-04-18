@@ -1,0 +1,16 @@
+.card{
+margin: 30%;
+
+}
+.back{
+    background: rgb(66, 222, 66);
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 20px;
+}
+.porta{
+    height: 250px;
+    border-radius: 50%;
+}
