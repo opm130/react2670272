@@ -1,15 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Card from "./components/Card";
+import Hola from "./components/Saludo";
+import imagenbob from "./components/image/Bob.webp"
+
 
 const root=ReactDOM.createRoot(
   document.getElementById('root')
 )
-root.render(<Card 
-  nombre="Oswal"
-  edad="30"
-  color="#00fff0"
-  />)
+root.render(
+<div>
+<Hola
+username="Oswaldo"
+/>
+<Card 
+  nombre="Bob"
+  descripcion=" se caracteriza por su optimismo y actitud infantil."
+  img={imagenbob}
+  />
+</div>)
 
 
 
