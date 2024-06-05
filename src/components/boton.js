@@ -1,10 +1,13 @@
 import React from "react";
 import B from './image/boton.avif'
+import './style/boton.css'
 
 export default function Addb(props){
     return(
-        <a href="/pagina/new">
-            <img src={B}/>
-        </a>
+        <div className="fboton">
+            <a href="/formulario">
+                <img src={B} className="boton"/>
+            </a>
+        </div>
     )
 }

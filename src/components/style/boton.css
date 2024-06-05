@@ -1,0 +1,11 @@
+.boton{
+    width: 200px;
+    height: 200px;
+    
+}
+.fboton{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

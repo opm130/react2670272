@@ -5,11 +5,15 @@ class Card extends React.Component{
 render(){
 const {nombre,descripcion,img,color}=this.props
     return (
-    <div className="card" style={{background:`${color}`}}>
-            <h1 >{nombre}</h1>
-            <p>{descripcion}</p>
+    <div className="tarjeta">   
+        <div className="card" style={{background:`${color}`}}>
             <img src={img} className="porta" alt=""/>
-    </div>
+                <div className="titulo">
+                    <h1 className="letraT">{nombre}</h1>
+                    <p className="">{descripcion}</p>
+                </div>
+        </div>
+    </div> 
     )
 }
 }
