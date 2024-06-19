@@ -2,7 +2,7 @@ import React from "react";
 import Tarjeta from "./Tarjeta";
 
 const Lista=({exercises})=>(
-    <div>
+    <React.Fragment>
         {
                 exercises.map((exercise)=>{
                     return(
@@ -18,7 +18,7 @@ const Lista=({exercises})=>(
                 }
             )
             }
-    </div>
+    </React.Fragment>
 )
 
 export default Lista

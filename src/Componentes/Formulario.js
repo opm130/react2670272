@@ -1,18 +1,12 @@
 import React from "react";
 import './Styles/Formu.css'
 class Formu extends React.Component{
-   
-    handleSubmit=e=>{
-        e.preventDefault()
-        console.log(this.state)
-    }
-  
 render(){
-    const {onChange,form}=this.props
+    const {onChange,form,onSubmit}=this.props
     return(
         <div className="container espacio">
         <form 
-            onSubmit={this.handleSubmit}
+            onSubmit={onSubmit}
         >
             <div className="form-group espacio">
                 <input 

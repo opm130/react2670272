@@ -10,12 +10,4 @@ const Boton =()=>(
         <img src={buttom} className="Fitness-Add" alt="" />
     </Link>
 )
-
-/* function AddButton(props){
-    return(
-        <Link to="/exercise/new">
-            <img src={buttom} className="Fitness-Add" alt="" />
-        </Link>
-    )
-} */
 export default Boton
